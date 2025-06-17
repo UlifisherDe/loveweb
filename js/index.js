@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-S.UI.simulate('|#countdown 3||张正时|撸|撸|撸|撸|#circle|');    }
+S.UI.simulate('|#countdown 3||预祝同学们|中考大捷|张正时|撸|撸|#circle|');    }
 
     S.Drawing.loop(function () {
       S.Shape.render();
